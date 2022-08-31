@@ -37,3 +37,5 @@
 ![Image load fail](./example_photo/auth_with_mac_binded.png)
 ![Image load fail](./example_photo/quit.png)
 ![Image load fail](./example_photo/Eng.png)
+## 鸣谢  
+感谢三位好兄弟（BBS_id:ddvdv,dysyyds,kangkangcmr）借我账号测试（马上就9月了，充网费不划算，9月份再充网费）
