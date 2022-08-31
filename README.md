@@ -25,7 +25,7 @@
 1. 首先把需要的包都装好
 在终端输入```pip install requests,time,re,os,execjs,datetime```
 2. 将main文件夹下载到本地，编辑```PKUHSC_Gateway_en_us.py```和```PKUHSC_Gateway_zh_ch.py```文件，在配置区填入账号和密码，然后选择文件运行（前者默认中文，后者默认英文，也可运行后切换语言）
-在终端输入```python 对应文件路径```
+在终端输入```python 对应文件路径```  
 后面的都是傻瓜式操作。
 ## 功能展示  
 ![Image load fail](./example_photo/main_menu.png)
