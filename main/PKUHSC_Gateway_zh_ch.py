@@ -5,7 +5,7 @@
 # @email: Doublefire.Chen@gmail.com
 # @location: HSC of PKU or BJMU(dawu,23333)
 # @Last Modified by: Doublefire.Chen
-# @Last Modified time: 2022-08-31 18:24:43
+# @Last Modified time: 2022-09-01 13:06:18
 # @version:v1.0_zh
 # @Github address:https://github.com/Doublefire-Chen/PKUHSC_Gateway
 # 北大医学办学110周年纪念
@@ -681,8 +681,7 @@ class Menu:
 				elif choose_in_unbind_mac=='8':
 					for mac in unbindable_mac:
 						Command().unbind_mac(mac)
-					Print().wait_time_axis(6
-						)
+					Print().wait_time_axis(6)
 					Login().get_status()
 					if len(not_binded_mac)==len(online_mac)+len(offline_mac):
 						Print().Green_print("已解绑全部mac")
@@ -697,7 +696,6 @@ class Menu:
 					Command().unbind_mac(unbindable_mac[t])
 					Print().wait_time_axis(6)
 					Login().get_status()
-					print(online_mac,offline_mac)
 					if tmp_mac in not_binded_mac: 
 						Print().Green_print("已成功解绑mac地址为"+tmp_mac+"的设备")
 					else:
